@@ -1,0 +1,28 @@
+sample_dict = {'name': 'Jason', 'age': 16, 'country': 'Spain' }
+print(sample_dict)
+
+#no, of items.
+print('\n no, of items in sample dictionary =',len(sample_dict))
+
+#accesing values in a dictionary
+print('\n',sample_dict["name"])
+print('\n',sample_dict["age"])
+
+#1st method to obtain values, using functions
+
+#obtain list of keys only
+print('\n The keys in the dict include:',sample_dict.keys())
+
+#obtain list of values only
+print('\n The values in the dict include:',sample_dict.values())
+
+#obtain list of items only
+print('\n The items in the dict include:',sample_dict.items())
+
+
+#2nd method
+#using for loop
+for k in sample_dict.keys():
+    print(k)
+
+for v in sample_dict.keys():
