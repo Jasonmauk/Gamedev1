@@ -1,0 +1,17 @@
+#print all keys and values
+
+print('\n The keys in the dict include:',classroom.keys())
+
+#values
+print('\n The values in the dict include:',classroom.values(),'\n')
+
+
+#changing age
+classroom["Jason"]['age'] = 17
+print (classroom, '\n')
+
+print(classroom,'\n')
+
+#update age index 3
+classroom["Jason"]['marks'][3] = 55
+print(classroom,'\n')
